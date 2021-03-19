@@ -1,4 +1,4 @@
-package com.Lz42;
+package com.lz42;
 /*
 Patient: id, Фамилия, Имя, Отчество, Адрес, Телефон, Номер медицинской карты, Диагноз.
 
@@ -16,7 +16,7 @@ class Patient {
     String oname;
     String adress;
     String phone;
-    int cnumber;
+    int    cnumber;
     String diagnos;
 
     void Patient(String plname,String pfname,String poname, String padress,
@@ -40,7 +40,7 @@ class Patient {
         diagnos="";
     }
 
-    void displayInfo(){
+    void displayPatient(){
         System.out.printf("Name: %s \tPhone: %d\n", fname, phone);
     }
 
