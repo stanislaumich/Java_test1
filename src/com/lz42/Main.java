@@ -1,4 +1,4 @@
-package com.lz42;
+package com.Lz42;
 
 public class Main {
 
